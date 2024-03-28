@@ -1,5 +1,13 @@
 
-
 h1 {
     font-family: Josefin Sans;
+    font-weight:900
 }
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #FBFBF8;
+    color: black;
+    font-size: 30px;
+  }

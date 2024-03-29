@@ -1,7 +1,23 @@
 
+body {
+  background-color: #FBFBF8 !important;
+  font-family: Josefin Sans !important;
+}
+
+
 h1 {
     font-family: Josefin Sans;
     font-weight:900
+}
+
+h2 {
+  font-family: Josefin Sans;
+  font-weight:900
+}
+
+h3 {
+  font-family: Josefin Sans;
+  font-weight:900
 }
 
 .header {
@@ -10,4 +26,23 @@ h1 {
     background: #FBFBF8;
     color: black;
     font-size: 30px;
+  }
+
+  .header-right {
+    float: right;
+  }
+
+  p1 {
+    font-family: Josefin Sans;
+    font-size:large;
+  }
+
+  icon {
+    height: 45px;
+  }
+
+  @media screen and (max-width: 300px) {
+    icon {
+      visibility: hidden;
+    }
   }

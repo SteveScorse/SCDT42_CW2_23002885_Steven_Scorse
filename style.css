@@ -4,7 +4,6 @@ body {
   font-family: Josefin Sans !important;
 }
 
-
 h1 {
     font-family: Josefin Sans;
     font-weight:900
@@ -28,21 +27,39 @@ h3 {
     font-size: 30px;
   }
 
-  .header-right {
+.header-right {
     float: right;
   }
 
-  p1 {
+p1 {
     font-family: Josefin Sans;
     font-size:large;
   }
 
-  icon {
+icon {
     height: 45px;
   }
 
-  @media screen and (max-width: 300px) {
+@media screen and (max-width: 300px) {
     icon {
       visibility: hidden;
     }
   }
+
+.navbar-custom {
+    background-color: #FBFBF8;
+}
+
+.navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color: black;
+        }
+
+.navbar-nav .nav-link.active .navbar-text.active {
+  /*background-color: #ebebdc; */
+  color: grey;
+}
+
+.nav a:hover {
+  color: blue;
+}

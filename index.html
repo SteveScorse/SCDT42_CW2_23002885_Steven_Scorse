@@ -18,7 +18,7 @@
     <!-- auto margins-->
     <div class="container">
       <!-- classes to help make mobile compatible, cent -->
-      <header class="d-flex flex-wrap justify-content-left py-3 mb-4 border-bottom"> 
+      <header class="d-flex flex-wrap justify-content-left py-3 border-bottom"> 
         <a href="index.html" class="d-flex align-items-center mb-4 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
         <img class="" src="assets/glowingGratesLogo1.png" alt="GlowingGrates Logo">
         <h1> Glowing Grates </h1>
@@ -36,16 +36,34 @@
 
         <div class="fs-1"><button type="button" class="btn btn-dark">Dark Mode</button></div>
 
-
-        
-
-      
-
-
       </header>
     </div>
-    
-
+  <div class="container">
+    <!-- Classes to make nav bar mobile friendly as well as changing styling properties-->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-text navbar-custom">
+      <div class="container-fluid">
+        <!-- Creates a drop down nav bar when viewed on mobile-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active nav-link px-3" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link px-3" href="services.html">Services</a>
+            <a class="nav-link px-3" href="productRanges.html">Product Ranges</a>
+            <a class="nav-link px-3" href="recentInstallations.html">Recent Installations</a>
+            <a class="nav-link px-3" href="about.html">About Us</a>
+            <a class="nav-link px-3" href="contact.html">Contact</a>
+            
+            
+          </div>
+        </div>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </div>
     
     
         

@@ -5,8 +5,17 @@ body {
 }
 
 h1 {
+  font-family: Josefin Sans;
+  font-weight: 700 !important;
+  font-size:x-large;
+
+}
+
+h1a {
     font-family: Josefin Sans;
-    font-weight:900
+    font-weight: 700 !important;
+    font-size: 2.5rem;
+  
 }
 
 h2 {
@@ -63,3 +72,37 @@ icon {
 .nav a:hover {
   color: blue;
 }
+
+.btn-danger{
+  background-color: #A51E1E!important;}
+  
+
+.masthead {
+  background-size: cover;
+  min-height: 60vh;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px 2px rgb(0, 0, 0,.2);
+
+}
+
+/* responsive CSS for masthead */ 
+@media (max-width: 768px) {
+  .masthead {
+    min-height: 30vh;
+  }
+  h1 {
+    font-size: calc(1.525rem + 3.3vw);
+  }
+}
+  
+
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.2);
+  
+}
+
+

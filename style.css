@@ -61,9 +61,11 @@ button1 {
   margin-right: 1rem;
 }
 
-icon {
-    height: 45px;
-  }
+i {
+  color: #ce0000;
+}
+
+
 
 @media screen and (max-width: 300px) {
     icon {

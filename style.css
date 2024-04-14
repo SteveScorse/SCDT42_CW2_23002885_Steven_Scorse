@@ -29,6 +29,10 @@ h3 {
   font-weight:900
 }
 
+h5 {
+  margin-bottom: 0 !important;
+}
+
 .header {
     padding: 30px;
     text-align: center;
@@ -161,7 +165,7 @@ i {
 h1b {
   font-size:3.5rem;
   font-weight: 700;
-  text-decoration: ;
+  text-shadow:.3vw .3vw 4px rgb(20, 20, 20);
 }
 
 @media (max-width: 500px) {
@@ -181,3 +185,31 @@ h1b {
 .largerFont {
   font-size: large;
 }
+
+.c-item {
+  height: 700px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+  width: 50px!important;
+  height: 50px!important;
+  background-color: black;
+  border-radius: 50%!important;
+  top: calc(50% - 25px)!important;
+}
+
+.carousel-control-next-icon {
+  right: 5%;
+}
+
+.carousel-control-next-icon {
+  left: 5%;
+}
+
+

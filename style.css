@@ -26,8 +26,9 @@ h2 {
 
 h3 {
   font-family: Josefin Sans;
-  font-weight:900
+  font-weight: 900 !important;
 }
+
 
 h5 {
   margin-bottom: 0 !important;
@@ -212,4 +213,14 @@ h1b {
   left: 5%;
 }
 
+.card-img {
+  filter: blur(3px);
+}
 
+.card-colour {
+  background-color: #FBFBF8!important;
+}
+
+.overlay {
+  margin-bottom: 30%;
+}

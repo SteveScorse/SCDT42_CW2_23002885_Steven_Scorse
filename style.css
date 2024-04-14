@@ -87,6 +87,12 @@ i {
   color: grey;
 }
 
+.active {
+  border-bottom: 2px !important;
+  font-weight: bold !important;
+  
+} 
+
 .nav a:hover {
   color: blue;
 }

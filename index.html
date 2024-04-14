@@ -45,29 +45,36 @@
     <nav class="navbar navbar-expand-md navbar-light navbar-text navbar-custom">
       <div class="container-fluid">
         <!-- Creates a drop down nav bar when viewed on mobile-->
-        <i class="align-items-center fa-solid fa-location-dot fa-2xl" alt="GPS Icon"></i>
-        <div class="d-none d-sm-flex d-md-flex"><p1 class="p-2">37 East Reach, Taunton, TA1 3ES</p1></div>
+        <i class="d-flex d-sm-none d-md-none flex-wrap justify-content-left fa-solid fa-location-dot fa-2xl " alt="GPS Icon"></i>
+        <div class="d-flex d-sm-none justify-content-left "><p1 class="p-2">37 East Reach, Taunton, TA1 3ES</p1></div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-          
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active nav-link px-3" aria-current="page" href="index.html">Home</a>
-            <a class="nav-link px-3" href="services.html">Services</a>
+            <!-- Remeber to change padding on active tabs-->
+            <a class="nav-link nav-item active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link nav-item px-3" href="services.html">Services</a>
             <a class="nav-link px-3" href="productRanges.html">Product Ranges</a>
             <a class="nav-link px-3" href="recentInstallations.html">Recent Installations</a>
             <a class="nav-link px-3" href="about.html">About Us</a>
             <a class="nav-link px-3" href="contact.html">Contact</a>
             
           </div>
+          
           <form class="d-flex ms-auto">
-            <button class="ms-auto rounded-0 btn btn-danger px-4" role="button" href="contact.html" >Request a Quote</button>
+            <button class="ms-auto mb- rounded-0 btn btn-danger px-4" role="button" href="contact.html" >Request a Quote</button>
           </form>
+
+          <div class="button1 d-flex d-sm-none d-md-none ms-auto flex-wrap justify-content-center mt-5 mb-2"><button type="button" class="btn btn-dark">Dark Mode</button></div>
+          
         </div>
       </div>
     </nav>
   </div>
+
+
+
   <div class="masthead color" style="background-image: url('/assets/indexHeader.jpg');">
     <!-- <img src="/assets/indexHeader.jpg" class="object-fit-fill img-fluid" alt="Out of Focus Fireplace"> -->
     <div class="container">
@@ -87,6 +94,8 @@
     <!-- JavaScript file link -->
 	<script src="index.js"></script>
   <script src="https://kit.fontawesome.com/a27bb9118f.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
     <!-- Make sure it is at the bottom of the body (optimisation etc) -->
   </body>
 </html>

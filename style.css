@@ -57,6 +57,12 @@ p1 {
     display: table-cell;
   }
 
+  p2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: grey;
+  }
+
 button1 {
   margin-right: 1rem;
 }
@@ -64,7 +70,6 @@ button1 {
 i {
   color: #ce0000;
 }
-
 
 
 @media screen and (max-width: 300px) {
@@ -88,9 +93,7 @@ i {
 }
 
 .active {
-  border-bottom: 2px !important;
   font-weight: bold !important;
-  
 } 
 
 .nav a:hover {
@@ -118,14 +121,13 @@ i {
   h1 {
     font-size: calc(1.525rem + 3.3vw);
   }
+  
 }
 
 .color-overlay {
   position: absolute;
   width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,.2);
-  
+  height: 100%; 
 }
 
 .outside-item2 {
@@ -141,3 +143,19 @@ i {
   top: 1;
   right: -17%;
   transform: translatey(71%);
+}
+.centered {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+h1b {
+  font-size:3.5rem;
+  font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  h1b {
+    font-size: 2.5rem;
+  }
+}

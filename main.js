@@ -31,3 +31,22 @@ initMap();
 
 
 //Darkmode - Accessiblity Features
+function changeCSS(){
+    var theme = document.getElementById('theme');
+    var themeName = theme.getAttribute('href');
+    
+    if (themeName == 'style.css') {
+        theme.setAttribute('href', 'dark.css');
+    
+        localstorage.setItem('theme', 'dark');
+    } else {
+        theme.setAttribute('href', 'style.css');
+        localStorage.setItem('theme', 'light');
+    }
+}
+    
+// Check if there is a saved theme in local storage, and if so, apply it
+var savedTheme = localstorage.getItem('theme');
+if (savedTheme === 'dark') {
+    document.getElementById('theme').setAttribute('href', 'dark.css');
+}

@@ -187,6 +187,10 @@ h1b {
   font-size: large;
 }
 
+.smallerFont {
+  font-weight: 400!important;
+}
+
 .c-item {
   height: 700px;
 }
@@ -228,3 +232,31 @@ h1b {
 .custom-border-right {
   border-right: 2px solid #e6e6e6 !important;
 }
+
+@media (max-width: 990px) {
+  .custom-border-right {
+    border-right: 0px!important;  
+  }
+  .mx-2 {
+    margin-left: 0!important;
+    margin-right: 0!important;
+  }
+  }
+
+imgSize {
+  max-width: 50%!important;
+  height: 50%!important;
+}
+
+#map {
+  height: 20vh; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+}
+
+.bandw {
+  filter: grayscale(100%);
+}
+
+.borderFix {
+  height: 380px;
+} 

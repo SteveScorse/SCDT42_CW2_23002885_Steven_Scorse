@@ -2,6 +2,297 @@
 body {
     background-color: #27292E !important;
     font-family: Josefin Sans !important;
-    height: 100%;
+    color: white !important;
+    height: 100%
+    
+  }
+  
+  h1 {
+    font-family: Josefin Sans;
+    font-weight: 700 !important;
+    font-size:x-large;
+    color: white !important;
+  
+  }
+  
+  h1a {
+      font-family: Josefin Sans;
+      font-weight: 700 !important;
+      font-size: 2.5rem;
+      color: white !important;
+    
+  }
+  
+  h2 {
+    font-family: Josefin Sans;
+    color: white !important;
+    font-weight:900
+    
+  }
+  
+  h3 {
+    font-family: Josefin Sans;
+    font-weight: 900 !important;
     color: white !important;
   }
+  
+  
+  h5 {
+    margin-bottom: 0 !important;
+    color: white !important;
+  }
+  
+  .header {
+      padding: 30px;
+      text-align: center;
+      background: #FBFBF8;
+      color: black;
+      font-size: 30px;
+    }
+  
+  .header-right {
+      float: right;
+    }
+  
+  .header1 {
+    display: table;
+  }
+  
+  .header2 {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  p {
+    color: white!important;
+  }
+
+  p1 {
+      font-family: Josefin Sans;
+      font-size:large;
+      vertical-align: middle; 
+      display: table-cell;
+    }
+  
+  p2 {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      color: grey;
+    }
+  
+  button1 {
+    margin-right: 1rem;
+  }
+  
+  i {
+    color: #ce0000;
+  }
+  
+  
+  @media screen and (max-width: 300px) {
+      icon {
+        visibility: hidden;
+      }
+    }
+  
+  .navbar-custom {
+    background-color: #27292E !important;
+  }
+  
+  .navbar-custom .navbar-brand,
+          .navbar-custom .navbar-text a, .navbar-text a {
+            color: white !important;
+          }
+
+.nav-item {
+    color: white !important;
+}
+
+.navbar-toggler, .navbar-toggler-icon  {
+    color: white !important;
+    background-color: white !important;
+}
+
+.card-body-mod {
+    background-color:#27292E !important ;
+}
+
+.brightness { 
+    filter: contrast(0.1) !important; }
+
+.iconColour {
+  color: white !important;
+}
+
+.iconColour2 {
+  color: #ce0000 !important;
+}
+  
+  .navbar-nav .nav-link.active .navbar-text.active {
+    /*background-color: #ebebdc; */
+    color: grey;
+  }
+  
+  .active {
+    font-weight: bold !important;
+  } 
+  
+  .nav a:hover {
+    color: blue;
+  }
+  
+  .btn-danger{
+    background-color: #A51E1E!important;}
+    
+  
+  .masthead {
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px 2px rgb(0, 0, 0,.2);
+  
+  }
+  
+  .mastheadAlt {
+    background-size: cover;
+    min-height:15vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px 2px rgb(0, 0, 0,.2);
+  
+  }
+  
+  /* responsive CSS for masthead */ 
+  @media (max-width: 768px) {
+    .masthead {
+      min-height: 30vh;
+    }
+    h1 {
+      font-size: calc(1.525rem + 3.3vw);
+    }
+    
+  }
+  
+  .color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+  }
+  
+  .outside-item2 {
+    padding: 23px;
+    right: 50%;
+    transform: translateX(150%);
+  }
+  
+  .outside-item {
+    background-color: lightblue;
+    padding: 0px;
+    position: absolute;
+    top: 1;
+    right: -17%;
+    transform: translatey(71%);
+  }
+  .centered {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+  
+  h1b {
+    font-size:3.5rem;
+    font-weight: 700;
+    text-shadow:.3vw .3vw 4px rgb(20, 20, 20);
+  }
+  
+  @media (max-width: 500px) {
+    h1b {
+      font-size: 2.5rem;
+    }
+    p2 {
+      font-size: 0.9rem;
+    }
+  }
+  
+  .card1 {
+    background-color: #A51E1E!important;
+    color: white !important;
+  }
+  
+  .largerFont {
+    font-size: large;
+  }
+  
+  .smallerFont {
+    font-weight: 400!important;
+  }
+  
+  .c-item {
+    height: 700px;
+  }
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-control-next-icon, 
+  .carousel-control-prev-icon {
+    width: 50px!important;
+    height: 50px!important;
+    background-color: black;
+    border-radius: 50%!important;
+    top: calc(50% - 25px)!important;
+  }
+  
+  .carousel-control-next-icon {
+    right: 5%;
+  }
+  
+  .carousel-control-next-icon {
+    left: 5%;
+  }
+  
+  .card-img {
+    filter: blur(3px);
+  }
+  
+  .card-colour {
+    background-color: #FBFBF8!important;
+  }
+  
+  .overlay {
+    margin-bottom: 30%;
+  }
+  
+  .custom-border-right {
+    border-right: 2px solid #e6e6e6 !important;
+  }
+  
+  @media (max-width: 990px) {
+    .custom-border-right {
+      border-right: 0px!important;  
+    }
+    .mx-2 {
+      margin-left: 0!important;
+      margin-right: 0!important;
+    }
+    }
+  
+  imgSize {
+    max-width: 50%!important;
+    height: 50%!important;
+  }
+  
+  #map {
+    height: 20vh; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+  }
+  
+  .bandw {
+    filter: grayscale(100%);
+  }
+  
+  .borderFix {
+    height: 380px;
+  } 

@@ -37,8 +37,7 @@ function changeCSS(){
     
     if (themeName == 'style.css') {
         theme.setAttribute('href', 'dark.css');
-    
-        localstorage.setItem('theme', 'dark');
+        localStorage.setItem('theme', 'dark');
     } else {
         theme.setAttribute('href', 'style.css');
         localStorage.setItem('theme', 'light');
@@ -46,7 +45,7 @@ function changeCSS(){
 }
     
 // Check if there is a saved theme in local storage, and if so, apply it
-var savedTheme = localstorage.getItem('theme');
+var savedTheme = localStorage.getItem('theme');
 if (savedTheme === 'dark') {
     document.getElementById('theme').setAttribute('href', 'dark.css');
 }

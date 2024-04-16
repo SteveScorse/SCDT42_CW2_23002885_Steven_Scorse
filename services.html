@@ -16,15 +16,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- auto margins-->
+    <!-- Header -->
     <div class="container">
-      <!-- classes to help make mobile compatible, cent -->
+      <!-- classes to help make mobile compatible and center -->
       <header class="position-relative d-flex flex-wrap justify-content-left py-3 "> 
         <a href="index.html" class="d-flex align-items-center mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
         <img class="logo" src="assets/glowingGratesLogo1.png" alt="GlowingGrates Logo">
         <h1a > Glowing Grates </h1>
         </a>
         <div class="d-flex d-none d-lg-flex  flex-wrap justify-content-end ">
+          <!-- Bootstrap Margin, Padding and Display Classes -->
           <i class="py-5 me-1 align-items-center fa-solid fa-location-dot fa-2xl iconColour2" alt="GPS Icon"></i>
           <div class="header1 me-2 "><p1 class="p-2">37 East Reach, Taunton, TA1 3ES</p1></div>
 
@@ -36,14 +37,13 @@
           
           <div class="button1 outside-item d-flex"><button type="button" class="btn btn-dark rounded-0" id="darkButton" onclick="changeCSS()">Dark Mode</button></div>
         </div>
-        
       </header>
       
     </div>
-
     <div class="border-bottom border-2">
-      
     </div>
+
+    <!-- Navbar-->
   <div class="container">
     <!-- Classes to make nav bar mobile friendly as well as changing styling properties-->
     <nav class="navbar navbar-expand-md navbar-light navbar-text navbar-custom">
@@ -56,27 +56,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <!-- Remeber to change padding on active tabs-->
             <a class="nav-link nav-item px-3" aria-current="page" href="index.html">Home</a>
             <a class="nav-link nav-item active " href="services.html">Services</a>
             <a class="nav-link px-3" href="productRanges.html">Product Ranges</a>
             <a class="nav-link px-3" href="recentInstallations.html">Recent Installations</a>
             <a class="nav-link px-3" href="about.html">About Us</a>
             <a class="nav-link px-3" href="contact.html">Contact</a>
-            
           </div>
-          
-          
             <button class="ms-auto mb- rounded-0 btn btn-danger px-4" onclick="window.location.href = 'contact.html';" role="button" href="contact.html" >Request a Quote</button>
-          
-
           <div class="button1 d-flex d-sm-none d-md-none ms-auto flex-wrap justify-content-center mt-5 mb-2"><button type="button" class="btn btn-dark rounded-0" id="darkButton" onclick="changeCSS()">Dark Mode</button></div>
-          
         </div>
       </div>
     </nav>
   </div>
 
+  <!-- Masthead -->
   <div class="mastheadAlt d-flex justify-content-center align-items-center" style="background-image: url('/assets/indexHeader2.jpg');">
     <div class="container">
         <div class="row">
@@ -87,6 +81,7 @@
     </div>
 </div>
 
+  <!-- Main Services Content - Using Bootstrap Grid System for Responsiveness -->
   <div class="container">
     <div class="row d-flex justify-content-center">
       <div class="col-lg-8 p-4 col-12">
@@ -95,6 +90,7 @@
     </div>
   </div>
 
+  <!-- Further Content -->
   <section>
     <div class="container ">
             <div class="row">
@@ -154,16 +150,13 @@
        <div> <p2 class="d-flex">©2023 Glowing Grates PLC, All Rights Reserved</p2> </div>
       </div>
     </div>
-    
 
-
-
-
-    <!-- JavaScript file link -->
+  <!-- JavaScript file link -->
 	<script src="main.js"></script>
+  <!-- JavaScript for FontAwesome -->
   <script src="https://kit.fontawesome.com/a27bb9118f.js" crossorigin="anonymous"></script>
+  <!-- JavaScript for Bootstrap 5 -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
     <!-- Make sure it is at the bottom of the body (optimisation etc) -->
   </body>
 </html>

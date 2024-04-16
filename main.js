@@ -26,10 +26,6 @@ async function initMap() {
 
 initMap();
 
- 
-
-
-
 //Darkmode - Accessiblity Features
 function changeCSS(){
     var theme = document.getElementById('theme');
